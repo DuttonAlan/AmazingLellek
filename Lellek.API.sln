@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{41A424D8-B350-478B-AFBF-E493F99C3D10}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lellek.API.Function", "Lellek.API.Function\Lellek.API.Function.csproj", "{C0D74660-7D29-4B23-A323-41991555179E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lellek.API.Contracts", "Lellek.API.Contracts\Lellek.API.Contracts.csproj", "{A248D117-9EFE-46FF-8C78-A97F133F5C5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lellek.API.Command", "Lellek.API.Command\Lellek.API.Command.csproj", "{715A0A4F-ED86-4898-8652-C170682230AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lellek.API.Core", "Lellek.API.Core\Lellek.API.Core.csproj", "{266D370B-D27C-4437-98BD-95F7F90FE011}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lellek.API.Services", "Lellek.API.Services\Lellek.API.Services.csproj", "{31F3523A-3429-4E50-A236-ADCDF9923FE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0D74660-7D29-4B23-A323-41991555179E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D74660-7D29-4B23-A323-41991555179E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D74660-7D29-4B23-A323-41991555179E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D74660-7D29-4B23-A323-41991555179E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A248D117-9EFE-46FF-8C78-A97F133F5C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A248D117-9EFE-46FF-8C78-A97F133F5C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A248D117-9EFE-46FF-8C78-A97F133F5C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A248D117-9EFE-46FF-8C78-A97F133F5C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{715A0A4F-ED86-4898-8652-C170682230AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{715A0A4F-ED86-4898-8652-C170682230AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{715A0A4F-ED86-4898-8652-C170682230AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{715A0A4F-ED86-4898-8652-C170682230AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266D370B-D27C-4437-98BD-95F7F90FE011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266D370B-D27C-4437-98BD-95F7F90FE011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266D370B-D27C-4437-98BD-95F7F90FE011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266D370B-D27C-4437-98BD-95F7F90FE011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F3523A-3429-4E50-A236-ADCDF9923FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F3523A-3429-4E50-A236-ADCDF9923FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F3523A-3429-4E50-A236-ADCDF9923FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F3523A-3429-4E50-A236-ADCDF9923FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B809006-F764-45F3-A6B2-6BBB71224AF9}
+	EndGlobalSection
+EndGlobal
